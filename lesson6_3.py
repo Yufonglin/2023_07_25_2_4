@@ -7,7 +7,7 @@ trage = random.randint(1,100)
 count =0
 
 
-print("====猜數字遊戲===")
+print("====猜數字遊戲===\n\n")
 while True:
     count +=1
     keyin = int(input(f"猜數字的範圍{min}~{max}:"))
