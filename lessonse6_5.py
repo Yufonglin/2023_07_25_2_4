@@ -1,3 +1,4 @@
+import random
 def play_game():
 
     min = 1
