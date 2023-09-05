@@ -1,8 +1,8 @@
 import student
-stu1 = student.Student("林鈺峰",78,92,68)
-print(stu1.total())
+stu1 = student.get_student("林鈺峰")
 print(stu1.chinese)
 print(stu1.english)
 print(stu1.math)
+print(stu1.total())
 print(stu1.averge)
 print(stu1)
