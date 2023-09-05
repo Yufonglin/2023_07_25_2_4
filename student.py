@@ -1,3 +1,8 @@
+#student module
+#提供變數，module提供常數
+#提供class
+#提供function
+import random
 class Student:
     def __init__(self,name,chinese,english,math) -> None:
         #實體的ATTRIBUTE
@@ -16,4 +21,8 @@ class Student:
     
     def __repr__(self):
         return f"我是stuudent實體，我的name{self.name}"
-        
+def get_student(n:str)->Student:
+    ch =  random.randint(50,100)
+    en = random.randint(50,100)
+    ma = random.randint(50,100)
+    return Student(name=n, chinese = ch, english = en, math = ma)
